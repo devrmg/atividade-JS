@@ -42,4 +42,4 @@ function calcularPonto(resultado){
    }
    let resultado = prompt('Insira o resultado do jogo. Obs: v para vitória, d para derrota e E para empate ')
    
-  console.log(calcularPonto(resultado));
+ 
