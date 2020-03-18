@@ -22,6 +22,7 @@ function classificacaoAngulo(angulo){
     return 'Ângulo raso';
   }
   else if (angulo>180 && angulo<360){
+    
     return 'Ângulo Côncavo';
   }
   
