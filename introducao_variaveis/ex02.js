@@ -2,7 +2,7 @@
 //2. Faça uma saída de soma de 2 números.
 
 //função pra calcular a soma
-funtion ola(vsoma) {
+function ola(vsoma) {
     var vsoma= 2+3
 
    if (vsoma <= 3){
