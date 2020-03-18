@@ -10,6 +10,6 @@ function calcularImc(peso, altura){
   return imc.toFixed(2);
   
 }
-let valorIMC = calcularImc(peso, altura);
+let valorIMC = calcularImc(peso=, altura);
 
 console.log(valorIMC);
