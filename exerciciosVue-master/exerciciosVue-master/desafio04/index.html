@@ -1,0 +1,49 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</script>
+<div id='desafio'>
+    <!-- 1) ligue o botao para alterar a exibicão dos dois parágrafos. use ambos v-if e v-show e inspecione
+    os elementos para ver a diferença-->
+    <h2>#01</h2>
+
+
+    <button @click="clicado=!clicado">{{clicado}}>Alterar</button>
+    <p v-if="clicado">voce quer me ver ...</p>
+    <p v-else>...ou eu </p>
+    <p v-show="clicado">vocẽ quer me ver ...</p>
+    <p v-show="!clicado">... ou eu</p>
+
+    <!-- 2) Exiba em uma <ul> um array de elementos da sua escolha .
+    Imprima tambem o indice de cada elemento.-->
+
+    <h2>#02</h2>
+    <ul>
+        <li></li>
+    </ul>
+    <!-- Imprimir todos os pares de valor-chave do projeto a seguir:
+    {
+        titulo:'o senhor dos aneis ',
+        autor:'J.R.R. Tolkiens',
+        volume:'3'
+        imprima tambem o indice de cada item.
+    }-->
+    <h2>#03</h2>
+    <ul>
+        <li></li>
+    </ul>
+    <!-- Imprima o seguinte objeto (somente os valores ) e também crie um loop aninhado
+    para o array :
+    {
+        id:10,
+        nome:'maria',
+        notas:[7.67,8.33,6.98,9.21]
+        (dica: use v-for e v-if na resolução)
+    }-->
+    <h2>#04</h2>
+    <ul>
+        <li>
+
+        </li>
+    </ul>
+</div>
+<script src="app.js">

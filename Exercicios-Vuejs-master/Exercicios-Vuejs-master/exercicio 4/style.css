@@ -1,0 +1,73 @@
+/* classes do exercicio 1 */
+#effect {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.highlight {
+  background-color: red;
+  width: 200px !important;
+}
+
+.shrink {
+  background-color: blue;
+  width: 100px !important;
+}
+
+/* classes do exercicio 2 */
+.classe1 {
+  background-color: black;
+  color: yellow;
+}
+
+.classe2 {
+  background-color: yellow;
+  color: black;
+}
+
+/* classes do exercicio 3 & 5 */
+.exemplo1 {
+  background-color: green;
+}
+
+.exemplo2 {
+  background-color: pink;
+}
+
+.exemplo3 {
+  background-color: orange;
+}
+
+/* classes do exercicio 4 */
+.exemplo4 {
+  background-color: red;
+}
+
+.exemplo5 {
+  background-color: blue;
+}
+
+.exemplo6 {
+  background-color: gray;
+}
+
+/* classes do exercicio 5 */
+[class*="valor1"] {
+  background: blue;
+}
+
+[class*="valor2"] {
+  background: red;
+}
+
+/* classes do exercicio 6 */
+.barraProgresso {
+    width: 80%;
+    height: 40px;
+    transition: width 500ms;
+}
+
+.text-center {
+    text-align: center;
+}

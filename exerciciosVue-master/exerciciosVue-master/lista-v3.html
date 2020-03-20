@@ -1,0 +1,40 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<div id="app">
+    <ul>
+
+        <template v-for="(cor,i) in cores">
+            <h1>{{cor}}</h1>
+            <p>{{i}}</p>
+
+        </template>
+
+    </ul>
+    <ul>
+        <li v-for="pessoa in pessoas">
+            nome: {{pessoa.nome}} -- idade: {{pessoa.idade}} -- peso: {{pessoa.peso}}
+        </li>
+    </ul>
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            cores: ['vermelho', 'amarelo', 'azul', 'banco'],
+            pessoas: [{
+                nome: 'david',
+                idade: 18,
+                peso: 80
+            }, {
+                nome: 'ana',
+                idade: 25,
+                peso: 68,
+                sobrenome: 'oliveira'
+            }, {
+                nome: 'bia',
+                idade: 13,
+                peso: 60
+            }]
+        }
+    })
+</script>

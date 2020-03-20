@@ -1,0 +1,30 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id='app'>
+        <p v-if='logado'>Usuario Logado:{{nome}}</p>
+        <p v-else>Usuario desconectado</p>
+    </div>
+    <button>Entrar</button>
+
+</body>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            nome: 'david',
+            logado: true
+        }
+    })
+</script>
+
+</html>

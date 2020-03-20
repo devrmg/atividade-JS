@@ -1,0 +1,26 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<div id="app">
+    <contador></contador>
+    <contador></contador>
+    <span>
+        {{contador}}<br>
+        <button @click="contador++"> somar 1</button> <br>
+        <button @click="contador--">subtrai 1</button> <br>
+    </span>
+</div>
+<div id="app">
+    Vue.component('contador',{ template: `<span>
+        {{contador}}<br>
+        <button @click="contador++"> somar 1</button> <br>
+        <button @click="contador--">subtrai 1</button> <br>
+    </span>` })
+
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            contador: 0
+        }
+    })
+</script>

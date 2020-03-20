@@ -1,0 +1,45 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id='app'>
+        <h1>Concdicionais v4</h1>
+        <template v-if='logado'>
+            <p>usuario logado</p>
+            <p>Nome do usuario: {{nome}}</p>
+        </template>
+        <p v-else>
+            <span>Usuario nao logado </span>
+        </p>
+        <butto @click="logado=!logado">{{logado ? 'sair'}}</button>
+
+            <br>
+            <footer v-show="logado">
+                Desevolvido pelo usuário {{nome}}
+            </footer>
+            <footer v-show="!logado">
+                Desevolvido por usuário desconhecido
+            </footer>
+</body>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            nome: 'david',
+            logado: false,
+        },
+        methods: {
+
+        }
+    })
+</script>
+
+</html>
