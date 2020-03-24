@@ -2,7 +2,7 @@
 let valor = parseInt(prompt("Digite o valor a ser descontado"));
 let desconto = 5;
 function calcularDesconto(valor){
-  valor *= (desconto/100);
+  valor = (desconto/100) * valor;
   return valor;
 }
 

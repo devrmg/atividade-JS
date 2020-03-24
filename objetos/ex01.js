@@ -25,16 +25,25 @@ const satanas = {
   
   const ford = {
     nome: 'Ford Prefect',
-    idade: 3,
+    idade: 'Tres'  + ' ' +  3 + ' ' + 'anos',
     castrado: true,
     cores: ['rajado']
   };
+
+  const fiat = {
+    nome: 'Palio',
+    idade: 'Tres'  + ' ' +  7 + ' ' + 'anos',
+    cadastro: false,
+    cores: ['blue', 'azul','grey', 'yellow']
+  };
   
-  const gatos = [satanas, churrumina, odo, ford]
+  const gatos = [satanas, churrumina, odo, ford, fiat]
 
   // exibindo a lista de gatos via console 
   for (let gato of gatos) {
       console.log(`${gato.nome}`);
+      console.log(`${gato.idade}`);
+       console.log(`${gato.cadastro}`);
       for (let cor of gato.cores) {
         console.log(`${cor}`)
     };

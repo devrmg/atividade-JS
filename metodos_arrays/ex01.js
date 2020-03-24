@@ -16,4 +16,4 @@ function removerRepetidos(numerosVarios){
     return numerosUnicos;
 }
    
-console.log (removerRepetidos(numerosVarios));
+console.log(removerRepetidos(numerosVarios));
