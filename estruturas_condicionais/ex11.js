@@ -11,5 +11,5 @@ function determinarTriangulo(angulo1, angulo2, angulo3){
     }
   }
   
-  console.log(determinarTriangulo(100,40,30))
+  console.log(determinarTriangulo(100,40,90))
   

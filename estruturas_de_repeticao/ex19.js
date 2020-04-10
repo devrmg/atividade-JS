@@ -26,4 +26,4 @@ function isPangram(str){
         return true;
     }
 }
-isPangram('mi')
+isPangram('a')

@@ -11,7 +11,6 @@
 55555 */
 
 function exibirPadrao(numeroVezes){
-    let digitos = 0;
     for (let i =1; i<=numeroVezes; i++){
         let linha = '';
         for(let j = 1; j <=i; j++){
@@ -20,4 +19,5 @@ function exibirPadrao(numeroVezes){
         console.log(linha);
     }
 }
-exibirPadrao(5);
+exibirPadrao(7);
+

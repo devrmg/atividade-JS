@@ -1,25 +1,34 @@
 
 //8 - Escreva um código que receba um número (1-7) e devolva o dia da semana correspondente.
 
-function retornarDiaSemana(data){
-    switch (data){
-      case 1:
-        return 'domingo';
-      case 2:
-        return 'segunda-feira';
-      case 3:
-        return 'terça-feira';
-      case 4:
-        return 'quarta-feira';
-      case 5:
-        return 'quinta-feira';
-      case 6:
-       return 'sexta-feira';
-      case 7:
-        return 'sábado';
-      default:
-        return 'inválido';
-    }
-  
+
+
+function diaDaSemana(n){
+  switch(n){
+    case 1:
+      return 'segunda feira'
+      break
+    case 2: 
+    return 'terça feira'
+    break
+    case 3:
+      return 'quarta feira'
+    break
+    case 4:
+      return 'quinta feira'
+    break
+    case 5:
+      return 'sexta feira'
+    break
+    case 6:
+      return 'sabado'
+    break
+    case 7:
+      return 'domingo'
+    break
+    default:
+    return  'Não corresponde a nenhum dia'
   }
-  console.log(retornarDiaSemana('7'));
+}
+
+console.log(diaDaSemana(59))
